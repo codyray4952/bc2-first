@@ -1,10 +1,20 @@
 .hero {
   height:300px;
+  background: url("https://gweb-earth.storage.googleapis.com/assets/google_earth_banner.jpg") center center;
+  background-size:cover;
 }
 
 .hero-img {
   width:100%;
   height:300px;
+}
+
+.hero-text {
+  text-align:center;
+  color:#fff;
+  background:#000;
+  margin:0 auto;
+  padding:5px;
 }
 
 .row1{
@@ -36,4 +46,21 @@
 .box3 {
   background-color: green;
   height: 100px;
+}
+
+.hider{
+  display:none;
+}
+
+.showr{
+  display:block;
+}
+
+@media (max-width: 768px) {
+  .hider{
+    display:block;
+  }
+  .showr{
+    display:none;
+  }
 }
