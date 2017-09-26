@@ -9,12 +9,17 @@
   height:300px;
 }
 
-.hero-text {
-  text-align:center;
-  color:#fff;
-  background:#000;
-  margin:0 auto;
-  padding:5px;
+.hero-button{
+  margin-top:200px;
+  margin-left:46%;
+}
+
+.orbitron{
+  font-family: 'Orbitron', sans-serif;
+}
+
+.poiret-font{
+  font-family: 'Poiret One', cursive;
 }
 
 .row1{
